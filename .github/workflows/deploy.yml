@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
         # SET THESE
-        ACR_ADMIN_USERNAME: "Apwworkshop"
+        ACR_ADMIN_USERNAME: "apwworkshop"
         ACR_LOGIN_SERVER_URL: "apwworkshop.azurecr.io"
         # SET THESE IN GITHUB
         ACR_ADMIN_PASSWORD: '${{ secrets.ACR_ADMIN_PASSWORD }}'
